@@ -53,12 +53,12 @@ export default function Navbar() {
 
         {/* small screen hamburger menu bar */}
         <div className="md:hidden">
-          <div className="flex justify-between items-center px-5 py-4 text-amber-100 bg-custom2 bg-opacity-95">
+          <div className="flex justify-between items-center px-5 py-4 text-amber-100 bg-gray-900 bg-opacity-95">
             <Link
               className="text-2xl sm:text-3xl font-bold font-serif hover:text-custom1"
               href={"/"}
             >
-              Mystic Web Co.|<sub className="text-xs font-sans">a blog website</sub>
+              Nature web.|<sub className="text-xs font-sans">a blog website</sub>
             </Link>
             <Sheet>
               <div className="flex items-center">
@@ -66,7 +66,7 @@ export default function Navbar() {
                   <MdMenuBook className="text-amber-100 w-7 h-7" />
                 </SheetTrigger>
               </div>
-              <SheetContent className="bg-custom2 bg-opacity-90 pt-20 text-center">
+              <SheetContent className="bg-gray-600  pt-20 text-center">
                 {/* Add a hidden title for accessibility */}
                 <SheetTitle className="sr-only">Menu</SheetTitle>
                 <ul className="flex flex-col space-y-7">
